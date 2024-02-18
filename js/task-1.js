@@ -1,9 +1,32 @@
-function slugify(title) {
-    return title.toLowerCase().split(' ').join('-');
+// const array = ['mango', 'poly', 'ajax']
 
-}
+// for (let i = 0; i < array.length; i += 1) {
+//    console.log(i, array[i]);
+// }
 
-console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
-console.log(slugify("English for developer")); // "english-for-developer"
-console.log(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"
-console.log(slugify("How to become a JUNIOR developer in TWO WEEKS")); // "how-to-become-a-junior-developer-in-two-weeks"
+
+
+// function minNum(numbers){
+//     let smallNumber = numbers[0];
+//     for (const number of numbers) {
+//         if (smallNumber > number) {
+//             smallNumber = number;
+            
+//         }
+//     }
+//     return smallNumber;
+// }
+
+// console.log(minNum([26, 10, 8, 20, 95, 67, 77, 5, 45]));
+
+
+
+// const str = "ротатор"
+// const newString = "Hello"
+
+// const strReversed = str.split('').reverse('').join('');
+// // console.log(strReversed === str);
+
+
+// const newStringReverse = newString.split('').reverse('').join('');
+// console.log(newStringReverse === newString);
